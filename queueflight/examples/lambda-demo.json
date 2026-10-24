@@ -1,0 +1,87 @@
+{
+  "Records": [
+    {
+      "messageId": "demo-okan-001",
+      "receiptHandle": "QUEUEFLIGHT_LOCAL_FIXTURE",
+      "body": "{\"Type\":\"Notification\",\"MessageId\":\"demo-sns-1\",\"TopicArn\":\"arn:aws:sns:us-east-1:000000000000:demo-orders\",\"Message\":\"{\\\"version\\\":\\\"0\\\",\\\"source\\\":\\\"demo.orders\\\",\\\"detail-type\\\":\\\"OrderCreated\\\",\\\"detail\\\":{\\\"orderId\\\":\\\"ORD-1042\\\",\\\"customer\\\":\\\"Okan\\\",\\\"total\\\":49.99,\\\"currency\\\":\\\"USD\\\",\\\"items\\\":2}}\"}",
+      "attributes": {
+        "ApproximateReceiveCount": "1",
+        "SentTimestamp": "1792828800000"
+      },
+      "messageAttributes": {},
+      "md5OfBody": "00000000000000000000000000000000",
+      "eventSource": "aws:sqs",
+      "eventSourceARN": "arn:aws:sqs:us-east-1:000000000000:queueflight-local",
+      "awsRegion": "us-east-1"
+    },
+    {
+      "messageId": "demo-phoenix-002",
+      "receiptHandle": "QUEUEFLIGHT_LOCAL_FIXTURE",
+      "body": "{\"orderId\":\"ORD-1043\",\"customer\":\"Phoenix\",\"total\":29.5,\"currency\":\"USD\",\"items\":1}",
+      "attributes": {
+        "ApproximateReceiveCount": "5",
+        "SentTimestamp": "1792828860000"
+      },
+      "messageAttributes": {},
+      "md5OfBody": "00000000000000000000000000000000",
+      "eventSource": "aws:sqs",
+      "eventSourceARN": "arn:aws:sqs:us-east-1:000000000000:queueflight-local",
+      "awsRegion": "us-east-1"
+    },
+    {
+      "messageId": "demo-mira-003",
+      "receiptHandle": "QUEUEFLIGHT_LOCAL_FIXTURE",
+      "body": "{\"orderId\":\"ORD-1044\",\"customer\":\"Mira\",\"total\":\"unknown\",\"currency\":\"USD\",\"items\":3}",
+      "attributes": {
+        "ApproximateReceiveCount": "7",
+        "SentTimestamp": "1792828920000"
+      },
+      "messageAttributes": {},
+      "md5OfBody": "00000000000000000000000000000000",
+      "eventSource": "aws:sqs",
+      "eventSourceARN": "arn:aws:sqs:us-east-1:000000000000:queueflight-local",
+      "awsRegion": "us-east-1"
+    },
+    {
+      "messageId": "demo-phoenix-004",
+      "receiptHandle": "QUEUEFLIGHT_LOCAL_FIXTURE",
+      "body": "{\"orderId\":\"ORD-1043\",\"customer\":\"Phoenix\",\"total\":29.5,\"currency\":\"USD\",\"items\":1}",
+      "attributes": {
+        "ApproximateReceiveCount": "2",
+        "SentTimestamp": "1792828980000"
+      },
+      "messageAttributes": {},
+      "md5OfBody": "00000000000000000000000000000000",
+      "eventSource": "aws:sqs",
+      "eventSourceARN": "arn:aws:sqs:us-east-1:000000000000:queueflight-local",
+      "awsRegion": "us-east-1"
+    },
+    {
+      "messageId": "demo-plain-005",
+      "receiptHandle": "QUEUEFLIGHT_LOCAL_FIXTURE",
+      "body": "warehouse notification: inventory sync queued",
+      "attributes": {
+        "ApproximateReceiveCount": "1"
+      },
+      "messageAttributes": {},
+      "md5OfBody": "00000000000000000000000000000000",
+      "eventSource": "aws:sqs",
+      "eventSourceARN": "arn:aws:sqs:us-east-1:000000000000:queueflight-local",
+      "awsRegion": "us-east-1"
+    },
+    {
+      "messageId": "demo-okan-006",
+      "receiptHandle": "QUEUEFLIGHT_LOCAL_FIXTURE",
+      "body": "{\"orderId\":\"ORD-1042\",\"customer\":\"Okan\",\"total\":59.99,\"currency\":\"USD\",\"items\":3}",
+      "attributes": {
+        "ApproximateReceiveCount": "1",
+        "SentTimestamp": "1792829040000"
+      },
+      "messageAttributes": {},
+      "md5OfBody": "00000000000000000000000000000000",
+      "eventSource": "aws:sqs",
+      "eventSourceARN": "arn:aws:sqs:us-east-1:000000000000:queueflight-local",
+      "awsRegion": "us-east-1"
+    }
+  ]
+}
